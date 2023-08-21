@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_primary10">
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="353dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="171dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/buttonStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewGreetings"
+        android:layout_width="371dp"
+        android:layout_height="208dp"
+        android:layout_marginTop="136dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Welcome to Flag Quiz"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="204dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:text="START"
+        android:textAlignment="center"
+        android:textColor="@color/material_dynamic_primary10"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="353dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/textViewGreetings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
